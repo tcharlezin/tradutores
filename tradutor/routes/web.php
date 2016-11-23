@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 
+// Adicionando rota para Pessoa
+Route::resource('pessoa', 'PessoaController');
+
