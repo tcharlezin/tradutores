@@ -4,3 +4,4 @@ psql -U postgres -c "drop database tradutores"
 psql -U postgres -c "create database tradutores"
 composer dump-autoload
 php artisan migrate
+php artisan serve
